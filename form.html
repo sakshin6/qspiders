@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    body{
+      display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="./submit.html" >
+     <fieldset>
+       <legend>Sign Up</legend>
+       <br/>
+       <label for="">institution name</label>
+       <input type="text" value="j/pyspider" readonly> 
+       <br><br>
+       <label for="username">username</label> 
+       <input type="text"
+       id="username" 
+       name="usernameissubmited"
+       placeholder="enter your name"/> <br/> <br>
+       <label for="">enter your email</label>
+       <input type="email" name="emailsubmitted"  required> <br/> <br>
+       <label for="">enter your phone number</label>
+       <input type="tel" 
+        maxlength="10"
+        minlength="10"
+        pattern="[7-9]{1}[0-9]{9}"> <br/> <br>
+       <label for="">enter your age</label>
+       <input type="number" ><br/><br>
+
+       <label for="">upload your resume</label>
+       <input type="file"> <br/><br>
+
+       <label for="">select date of birth</label>
+       <input type="date"max="2024-10-20" min="2024-10-10">
+
+       <label for="">select date of birth</label>
+       <input type="datetime"> <br/><br>
+
+       <label for="">select date of birth</label> 
+       <input type="datetime-local"> <br/><br>
+
+       <label for="">select the color</label>
+       <input type="color"> <br/><br>
+
+       <input type="submit">
+       <input type="reset">
+       <input type="text">
+
+       <input type="button" value="button"> <br><br>
+
+       <label for=""> select the gender</label> <br><br>
+       <input type="radio" name="gender"/>Female <br>
+       <input type="radio" name="gender"/>male <br>
+       <input type="radio" name="gender"/>other <br>
+
+       <label for="">select your option</label> <br><br>
+       <input type="checkbox" name="check" value="sql" />sql<br><br>
+       <input type="checkbox" name="check" value="java" />java<br><br>
+       <input type="checkbox" name="check" value="webtech"/>webtech<br><br>
+       <input type="checkbox" name="check" value="python"/>python<br><br>
+
+       <label for="">Rate your Skills in webtech</label>
+       <input type="range" name="skills"> <br><br>
+
+       <label for="">Paste the url</label>
+       <input type="url"><br><br>
+
+       <label for="">pass the value</label>
+       <input type="hidden" value="1324" name="otp"/><br><br>
+
+       <label for="">select a month</label>
+       <input type="month"/>
+
+       <label for="">select a time</label>
+       <input type="time"/> <BR></BR>
+
+       <label for="">select for option</label>
+       <select name="select" id="">
+       <optgroup label="pgm languages"> <br><br>
+
+        <option value="java">JAVA</option>
+        <option value="python">PYTHON</option>
+        <option value="sql">SQL</option>
+       </optgroup>
+      </select>
+
+     <label for="sel">Select from an option</label>
+     <input type="text" id="sel" list="hello" name="select"/>
+     <datalist id="hello">
+      <option value="java">JAVA</option>
+      <option value="sql">SQL</option>
+      <option value="webtech">webtech</option>
+      <option value="python">PYTHON</option>
+     </datalist><br><br>
+
+     <textarea name="" id="" rows="10" cols="17"></textarea><br><br>
+
+     <input type="submit" value="sign in"/>
+     <input type="reset" value="cancel"/>
+     <input type="button" value="buttontag"/>
+     <button>button2</button>
+       
+
+     </fieldset>
+
+
+    </form>
+</body>
+</html>
